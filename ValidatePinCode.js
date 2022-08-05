@@ -1,5 +1,5 @@
-let validRegex = RegExp('^[1-9]{1}[0-9]{5}$')
-let pincode = 801306;
+let validRegex = RegExp('^[1-9]{1}[0-9]{2}\\s{0,1}[0-9]{3}$')
+let pincode = "804 306";
 function validFunc()
 {
     if(validRegex.test(pincode))
